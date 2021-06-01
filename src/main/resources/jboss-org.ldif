@@ -1,0 +1,50 @@
+version: 1
+
+dn: ou=People,o=state.ak.us
+objectClass: organizationalUnit
+objectClass: top
+ou: People
+
+dn: CN=Kevin Dorsey,ou=People,o=state.ak.us
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Kevin Dorsey
+sn: dorsey
+uid: kdorsey
+mail: kdorsey@mail.com
+employeeNumber: 295506
+
+dn: CN=Willliam Walsh,ou=People,o=state.ak.us
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Willliam Walsh
+sn: walsh
+uid: wwalsh
+mail: wwalsh@mail.com
+employeeNumber: 275669
+
+dn: CN=Scott Cronk,ou=People,o=state.ak.us
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Scott Cronk
+sn: cronk
+uid: scronk
+mail: scronk@mail.com
+employeeNumber: 297287
+
+dn: ou=Roles,dc=jboss,dc=org
+objectclass: top
+objectclass: organizationalUnit
+ou: Roles
+
+dn: cn=Admin,ou=Roles,dc=jboss,dc=org
+objectClass: top
+objectClass: groupOfNames
+cn: Admin
+member: uid=jduke,ou=Users,dc=jboss,dc=org
